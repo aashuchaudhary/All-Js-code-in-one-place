@@ -1,26 +1,34 @@
 // 1. The Magical Sorting Hat: Imagine you are creating a magical sorting hat for a wizard school. Implement a JavaScript function that takes an array of student names and assigns them to one of the four houses (Gryffindor (length less than 6), Hufflepuff(length less than 8), Ravenclaw(length less than 12), or Slytherin(length greater than or equal to 12)) based on the length of their names.
 
+// let students = [
+//   "Appu",
+//   "Dipu",
+//   "Ashu",
+//   "Ruhi",
+//   "Shruti",
+//   "saloni",
+//   "manish",
+//   "Rashmi",
+//   "Shreya",
+//   "Muskan",
+// ];
 
-// let students = ["Appu", "Dipu", "Ashu", "Ruhi", "Shruti", "saloni", "manish", "Rashmi", "Shreya", "Muskan"]
-
-// let houses = []
+// let houses = [];
 
 // for (const student of students) {
-//     if (student.length < 6) {
-//         houses.push("Gryffindor")
-//     }
-//     else if (student.length < 8) {
-//         houses.push("Hufflepuff");
-//     }
-//     else if (student.length < 12) {
-//         houses.push("Ravenclaw");
-//     }
-//     else{
-//         houses.push("Slytherin");
-//     }
-    
+//   if (student.length < 6) {
+//     houses.push("Gryffindor");
+//   } else if (student.length < 8) {
+//     houses.push("Hufflepuff");
+//   } else if (student.length < 12) {
+//     houses.push("Ravenclaw");
+//   } else {
+//     houses.push("Slytherin");
+//   }
 // }
 // console.log(houses);
+
+
 
 
 
@@ -34,22 +42,39 @@
 
 // 6.The Vowel Counter: You need to create a function that counts the number of vowels in a given string. Consider both uppercase and lowercase vowels.
 
-// 7.The Local Storage Manager: You are working on a note-taking app, and you want to implement a function named saveNoteToLocalStorage that takes a note object and saves it to the browser's local storage.
+//// In LocalStorage we can store value pairs....
 
+// if (localStorage.getItem("name")) {
+//     a =localStorage.getItem("name")
+//     document.write("Welcome  " + a)
+// }
 
-// In LocalStorage we can store value pairs
-if (localStorage.getItem("name")) {
-    a =localStorage.getItem("name")
-    document.write("Welcome  " + a)
-}
-   
-else {
-    
-    let a = prompt("Enter your Name")
-    localStorage.setItem("name",a)
-    document.write("Welcome  " + a)
-}
+// else {
 
+//     let a = prompt("Enter your Name")
+//     localStorage.setItem("name",a)
+//     document.write("Welcome  " + a)
+// }
+
+// // storing object
+// a={
+//     "Ashu":1,
+//     "Dipu":2 }
+// // {Ashu: 1, Dipu: 2}
+// JSON.stringify(a)
+// // '{"Ashu":1,"Dipu":2}'
+// localStorage.setItem("guys",a)
+// // undefined
+
+// // stringfy used to convert object into string.
+// localStorage.setItem("guys",JSON.stringify(a))
+// // undefined
+// localStorage.getItem("guys")
+// // '{"Ashu":1,"Dipu":2}'
+
+// // paese used to convert string into object
+// JSON.parse(localStorage.getItem("guys"))
+// // {Ashu: 1, Dipu: 2}
 
 // 8.Async Array Mapping: Write an asynchronous function that takes an array of numbers and returns a new array of Promises where each number is multiplied by 2 after a delay of 500 milliseconds.
 

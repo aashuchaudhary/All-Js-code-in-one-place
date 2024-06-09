@@ -17,7 +17,7 @@
 //   });
 // }
 
-// copy of the function to make it actual functio. for fetch Api
+// copy of the function to make it actual function. for fetch Api
 async function getData() {
   // simulate getting data from the server.
   return new Promise((resolve, reject) => {

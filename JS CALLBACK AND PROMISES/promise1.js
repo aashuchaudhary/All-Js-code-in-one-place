@@ -56,7 +56,7 @@ let prom3 = new Promise((resolve, reject) => {
 
 // then ka use krte hai agr prom1 hai to execute hoga.
 
-// in promise ya to data chal jye sucessful ya reject hio jye.
+// in promise ya to data chal jye sucessfulLY ya reject ho jye.
 
 // promise.all mai dono promise resolve hona chyea 
 

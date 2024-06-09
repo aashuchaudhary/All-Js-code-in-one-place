@@ -9,7 +9,7 @@ async function getData() {
     // simulate getting data from the server.
     // Converting into async await and it return promise 
     let x = await fetch('https://jsonplaceholder.typicode.com/todos/1')
-     let data = await x.json() //await krne ke baad dat ayega url se
+     let data = await x.json() //await krne ke baad data ayega url se
     //  let data = await x.text()  //here we can use text also.
     // return two promise or 2 bar await ka use karte hai....
 

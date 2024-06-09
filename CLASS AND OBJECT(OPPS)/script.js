@@ -34,7 +34,7 @@ class Animal{
 
     eats()
     {
-        console.log("khanakha rha hun");
+        console.log("khana kha rha hun");
     }
 
     jumps()
@@ -59,7 +59,7 @@ class Animal{
 
 class lion extends Animal {
   constructor(name) {
-    super(name);
+    super(name);  // super keyword is used to call parent constructor.....
     this.name = name;
     console.log("Object is created");
     }
@@ -67,7 +67,7 @@ class lion extends Animal {
     // Method Overridding
     
     eats() {
-      super.eats() //using Super both the result is printed Fter methid Overrigging also.
+      super.eats() //using Super both the result is printed After method Overrigging also.
     console.log("khanakha rha hun Roars....");
   }
 };
